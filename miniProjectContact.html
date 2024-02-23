@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PAS Developers</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e8e8ba;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Disable scrolling */
+        }
+        
+        .navbar {
+            display: flex;
+            background-color: #a41859;
+            color: white;
+            padding: 15px;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .nav-branding h3 {
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .nav-link {
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #8bc34a;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 60px;
+            color: #cb0dab;
+        }
+        
+        main {
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            background-color: #c8da98;
+            width: 100%;
+            min-height: 100vh;
+        }
+        
+        .main1 {
+            width: 70%;
+            margin: 20px;
+            
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .main2 {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 20px;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"],
+        input[type="number"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        #message {
+            height: 150px;
+            padding: 10px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="nav-branding">
+            <h3>PAS DEVELOPERS</h3>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="modules.html" class="nav-link">MODULES</a></li>
+            <li class="nav-item"><a href="req.html" class="nav-link">REQUIREMENTS</a></li>
+            <li class="nav-item"><a href="miniProjectContact.html" class="nav-link">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+    
+    
+    <main>
+        <section class="main1">
+            <form action="">
+                <div class="main2">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Email Address" required>
+    
+                    <label for="phone">Phone:</label>
+                    <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Message us" required></textarea>
+    
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

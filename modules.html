@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules - PAS Developers</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e8e8ba;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Disable scrolling */
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #a41859;
+            color: white;
+            padding: 15px;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .nav-branding h3 {
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .nav-link {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #8bc34a;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: 0px; /* Adjusted to leave space for the fixed navbar */
+        }
+
+        .module-block {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            margin: 20px;
+            transition: background-color 0.3s; /* Added transition for smoother effect */
+        }
+
+        .module-block:hover {
+            background-color: #e0e0e0; /* Change background color on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html" class="nav-branding">
+            <h3>PAS DEVELOPERS</h3>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="modules.html" class="nav-link">MODULES</a></li>
+            <li class="nav-item"><a href="req.html" class="nav-link">REQUIREMENTS</a></li>
+            <li class="nav-item"><a href="miniProjectContact.html" class="nav-link">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="module-block">
+            <h2>Home</h2>
+            <p>This module provides information about our home page and its features.</p>
+        </div>
+
+        <div class="module-block">
+            <h2>About Us</h2>
+            <p>Learn about our mission, vision, and meet the talented members of our team.</p>
+        </div>
+
+        <div class="module-block">
+            <h2>Modules</h2>
+            <p>Explore the different modules and functionalities available on our website.</p>
+        </div>
+
+        <div class="module-block">
+            <h2>Requirements</h2>
+            <p>Find out the system requirements and prerequisites for using our services.</p>
+        </div>
+
+        <div class="module-block">
+            <h2>Contact</h2>
+            <p>Contact us for further information or assistance. We'd love to hear from you!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

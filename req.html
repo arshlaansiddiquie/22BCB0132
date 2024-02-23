@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirements - PAS Developers</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e8e8ba;
+            margin-top: 0px;
+            padding: 0;
+            transition: background-color 0.3s;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #a41859;
+            color: white;
+            padding: 15px;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            transition: background-color 0.3s;
+            margin-left: 0px;
+        }
+
+        .nav-branding h3 {
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .nav-link {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #8bc34a;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-top: 0px; /* Adjusted to leave space for the fixed navbar */
+            transition: margin-top 0.3s;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .section {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            margin: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+                background-color 0.3s ease-in-out;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .pricing {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            margin: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+                background-color 0.3s ease-in-out;
+        }
+
+        .pricing:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .deployment {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            margin: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+                background-color 0.3s ease-in-out;
+        }
+
+        .deployment:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html" class="nav-branding">
+            <h3>PAS DEVELOPERS</h3>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="modules.html" class="nav-link">MODULES</a></li>
+            <li class="nav-item"><a href="requirements.html" class="nav-link">REQUIREMENTS</a></li>
+            <li class="nav-item"><a href="miniProjectContact.html" class="nav-link">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Client Requirements</h2>
+            <p>For successful collaboration, clients are required to provide detailed project specifications, including goals, preferences, and any specific functionalities they desire. Regular communication and feedback during the development process are essential to ensure the project aligns with client expectations.</p>
+        </div>
+
+        <div class="section">
+            <h2>Minimum Requirements for Hiring and Our Requirements from Clients</h2>
+            <p>We seek dedicated individuals with strong technical skills and a passion for innovation. Minimum qualifications include a bachelor's degree in computer science or a related field, proficiency in relevant programming languages, and experience with software development projects. Clients are expected to adhere to agreed-upon project timelines, provide necessary resources, and participate actively in the feedback and testing phases.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>Pricing Details</h2>
+            <p>Our pricing model is transparent and tailored to the specific needs of each project. We offer competitive hourly rates starting at INR 1500 per hour for development services. Additionally, we provide project-based pricing for larger-scale projects, with detailed quotes outlining the scope of work, timelines, and associated costs. Contact us for a personalized quote based on your project requirements.</p>
+        </div>
+
+        <div class="pricing">
+            <h2>Pricing - Large Projects</h2>
+            <p>For larger projects, we provide discounted rates. Projects with a scope of more than 100 hours receive a 10% discount. For projects exceeding 200 hours, we offer a 15% discount. Our goal is to provide cost-effective solutions for our clients' diverse needs.</p>
+        </div>
+
+        <div class="deployment">
+            <h2>Project Deployment Requirements</h2>
+            <p>For deployment, ensure you have the following:</p>
+            <ul>
+                <li><strong>Version Control:</strong> Utilize version control systems like GitHub for source code management.</li>
+                <li><strong>Hosting Platform:</strong> Choose a hosting platform for web applications (e.g., GitHub Pages, Netlify).</li>
+                <li><strong>Browser Compatibility:</strong> Test and ensure compatibility with major browsers like Chrome, Firefox, and Safari.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAS Developers</title>
+    <link rel="stylesheet" href="proj.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        /* Your existing CSS styles */
+
+        /* Updated CSS styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 25px;
+            font-size: 18px;
+        }
+
+        .nav-branding {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        .nav-branding h3 {
+            font-weight: 800;
+        }
+
+        .nav-item {
+            font-weight: 500;
+        }
+
+        .nav-link {
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #8bc34a;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hero {
+            background-color: #ffffff;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .section2 {
+            background-color: #c8da98;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .section2text {
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .Team {
+            text-align: center;
+            background-color: #c06666;
+            padding: 50px;
+        }
+
+        .memberteam {
+            background-color: #deaeae;
+            border: 2px solid #d9534f;
+            border-radius: 9px;
+            height: 200px;
+            width: 400px;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .teammem {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #teamP {
+            margin-bottom: 10px;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#" class="nav-branding">
+            <h3>PAS DEVELOPERS</h3>
+        </a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link" target=>ABOUT</a></li>
+            <li class="nav-item"><a href="modules.html" class="nav-link">MODULES</a></li>
+            <li class="nav-item"><a href="req.html" class="nav-link">REQUIREMENTS</a></li>
+            <li class="nav-item"><a href="miniProjectContact.html" class="nav-link">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <p>Welcome to the World of</p>
+        <p style="font-size: 48px;">PAS Developers</p>
+        <p style ="font-size: 10px;">Scroll Down</p>
+    </div>
+
+    <div class="section2">
+        
+        <h1>Our Team consists of highly experienced and skilled Frontend Developers</h1>
+    </div>
+
+    <div class="Team">
+        <h1>OUR TEAM MEMBERS</h1>
+        <h3>Get to know our team members below. We are happy to have you here!</h3>
+        <div class="teammem">
+            <div class="memberteam">
+                <h2 id="teamP">Garimella Pavan Teja</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+            </div>
+            <div class="memberteam">
+                <h2 id="teamP">Arshlaan</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+            </div>
+            <div class="memberteam">
+                <h2 id="teamP">Sakshi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
